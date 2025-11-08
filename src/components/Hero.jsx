@@ -5,8 +5,8 @@ export default function Hero() {
   return (
     <section id="hero" className="relative min-h-[90vh] pt-24 overflow-hidden">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode" style={{ width: '100%', height: '100%' }} />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/70 via-white/40 to-white/90" />
+        <Spline scene="https://prod.spline.design/N8g2VNcx8Rycz93J/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/60 via-white/35 to-white/90" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900"
-            >
+           >
               Software Engineer crafting modern, interactive experiences
             </motion.h1>
             <motion.p
